@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS的使用-外掛樣式(link)</title>
+    <link rel="stylesheet" href="styles/st1.css">
+    <style>
+        .str1{
+            font-style:normal;
+            text-decoration:underline;
+        }
+        .theH4_col{
+            color:purple;
+        }
+        .theH4{
+            color:green;
+            font-size:2em;
+        }
+        #theH4_col2{
+            color:red;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="st1">apple</h1>
+    <h1 class="st2">orange</h1>
+    <h2 class="st1">banana</h2>
+    <h3 class="col2 under">panda</h3>
+    <h3 class="col1 sty col2 str1">bear</h3>
+    <h4 style="color:blue;" id="theH4_col2" class="theH4 theH4_col">lemon</h4> 
+    <!-- 同屬性color 
+         依照制定的先後順序載入.theH4_col先於.theH4 
+         同時又有id執行時則優先執行#theH4_col2
+         若再有inline的style則優先執行-->
+</body>
+</html>

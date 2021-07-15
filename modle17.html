@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modle 17</title>
+    <style>
+        .list {
+            overflow: auto;
+            /*讓<ul>不受li浮動影響*/
+            background-color: skyblue;
+            list-style-type: none;
+
+        }
+
+        .list li {
+            float: left;
+            width: 7em;
+            border-right: 1px solid gray;
+            line-height: 2.5em;
+        }
+
+        .list li a {
+            display: block;
+            /*把a元素變block*/
+            text-align: center;
+        }
+
+        .list li a:hover {
+            background-color: yellowgreen;
+            color: #ffffff;
+        }
+
+        .list li a:link {
+            text-decoration: none;
+        }
+
+        h1 {
+            background-color: yellow;
+            color: red;
+            /* visibility: hidden; */
+            /*h2位置不動*/
+            display: none;
+            /*h2佔據h1的空間*/
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+            border: 1px solid red;
+            overflow: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul class="list">
+            <li><a href="https://www.iiiedu.org.tw/">首頁</a></li>
+            <li><a href="list.html">關於</a></li>
+            <li><a href="hyperlink.html">部落格</a></li>
+            <li><a href="mailto:chenyayi805@gmail.com">聯絡</a></li>
+        </ul>
+    </nav>
+    <h1>Hi 我是H1</h1>
+    <h2>Hi 我是H2,H1消失了嗎?</h2>
+    <div class="box">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</div>
+    <div class="box">消失消失消失消失消失消失消失消失消失消失消失消失消失消失消失消失消失消失消失消失消失</div>
+
+</body>
+
+</html>

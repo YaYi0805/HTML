@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW-article</title>
+    <style>
+        body {
+            background-color: grey;
+        }
+
+        * {
+            /*拿掉h2和p元素的預設margin,padding*/
+            margin: 0;
+            padding: 0;
+        }
+
+        .article {
+            display: block;
+            width: 800px;
+            /* border:1px solid gray; */
+            margin: 10px auto; /*上下10px 左右auto*/
+            padding: 30px 80px;
+            background-color: hsl(0, 0%, 100%);
+            border-radius: 20px;
+            box-shadow: 5px 5px 5px black;
+
+        }
+
+        .t1 {
+            color: blue;
+            margin-bottom: 20px; /*標題下邊界*/
+            text-shadow: -5px -5px 10px gray;
+        }
+
+        figure {
+            width: 400px;
+            border: 1px solid skyblue;
+            float: left;
+            padding: 5px;
+            margin-right: 20px;
+        }
+
+        img {
+            width: 400px; /*跟figure設定一樣*/
+            opacity: 0.5; /*圖片透明屬性0~1*/
+        }
+        
+        .img1:hover{ /*滑鼠移到圖片上方變成不透明*/
+            opacity: 1;
+        }
+
+        figcaption {
+            color: gray;
+            font-size: 12px;
+        }
+
+        p {
+            margin-bottom: 20px;
+            text-align: justify; /*文字左右對齊*/
+            /* line-height: 24px; */
+            line-height: 1.7; /*行高*/
+        }
+    </style>
+    <script>
+        document.createElement("article");
+        document.createElement("figure");
+        document.createElement("figcaption");
+    </script>
+</head>
+
+<body>
+    <article class="article">
+        <h2 class="t1">賈伯斯、庫克、理查布蘭森有個共同點，你我都可以學會</h2>
+        <figure>
+            <img class="img1" src="images/hw.jpg" alt="" title="Big Five personality traits">
+            <figcaption>Big Five personality traits</figcaption>
+        </figure>
+        <p>
+            根據經濟學家研究，性格，是決定成功的關鍵因素之一，但你了解自己的性格嗎？其實，性格是一個動態的概念，是可以被改變、塑造的。心理學家發現，日常生活的行為習慣，和性格有密切的關聯，它們不但顯示性格，甚至可以形塑性格。
+        </p>
+        <p>
+            1.智商高、能力好又怎樣？<br>性格才是核心競爭力在職場上，性格是最被企業重視的事情之一。與Steve Jobs、Bill Gates同為世界最具影響力企業家、維珍集團(Virgin Group)總裁Richard
+            Branson曾經寫了一篇文章〈我的選才策略：聚焦於性格〉探討性格對企業選才的重要性，裡面提到：「能力可以學習，所以能輕易被取代，但人的性格卻很難被訓練。如果能用到好性格的人，你幾乎就已經成功了。」
+        </p>
+        <p>
+            根據數位教育公司Hyper Island對超過5,000位企業領袖的「Tomorrow’s Most
+            Wanted」調查，78%的企業領袖認為性格是選擇員工的最主要因素，其次是文化契合度，最後，只有39%的企業領袖覺得能力是重要的。
+        </p>
+        <p>
+            此外，諾貝爾經濟學獎得主James J. Heckman與荷蘭馬斯垂克大學的幾位教授合作研究的題目「成功要素」中也指出：影響一個人成功的最關鍵要素，就是「性格」。可見「性格」相較於「能力」而言，更是我們的核心競爭力。
+        </p>
+        <p>
+            James的研究中有一個項目是依據「五大性格特質(Big Five personality traits，後面皆稱Big Five)」模型去分析「財務成功人士」的性格。Big
+            Five是指經驗開放性、親和性、自覺性、外向型以及情緒不穩定性，其中他們發現這些成功人士在「自覺性」特質上有相當高的評價。
+        </p>
+        <p>
+            在Big Five中，「自覺性」是指以目標為導向的性格，它包含的特質是自律、謹慎細心、做事徹底而且有條理，所以高自覺性的人通常在工作上十分勤奮可靠。
+        </p>
+        <p>
+            就拿Steve Jobs和Tim Cook為例，雖然他們兩人的性格表現差很多，但如同心理學家所講，性格是不同特質組成的。我們可以從Steve
+            Jobs著名的壞脾氣初步了解，他的親和性不高；但是，他對於完美的執著，不管外界的評論，專注於自我的遠見其實是高自覺性的表現。
+        </p>
+        <p>
+            相較於Steve Jobs，Tim Cook冷靜、沉著的處事性格可以顯示出極低的情緒不穩定性，而他異常勤奮的工作態度也顯示他擁有高自覺性的性格特質。由此可知雖然表面上看起來Steve Jobs和Tim
+            Cook的性格差距很大，但對於成功的關鍵特質「自覺性」卻都很突出。
+        </p>
+        <p>
+            2.形塑性格，從日常的行為習慣開始<br>既然性格如此重要，那麼我們該如何了解自己的性格？性格若是動態的，又該如何被改變、培養？美國Rochester大學醫學院和Oregon研究中心合作發表了一篇論文，他們發現，其實從吃不吃辣，到洗澡會不會唱歌，這些平常看似無關緊要的行為，其實早就顯示出許多性格特質了。
+        </p>
+        <p>
+            他們取800個平均51歲的白人樣本進行研究：他們首先做了Big Five分析，並於4年後，將樣本的分析結果與他們日常生活做的400個行為活動進行比較，結果，行為習慣和性格真的有密切的關聯性。
+        </p>
+        <p>
+            像是外向性高的人很明顯會把時間花在放鬆、派對、喝酒聊天上；自覺性高的人把時間看得很寶貴，所以不會晚起，或做一些浪費時間的事，例如講八卦；親和性高的人喜歡在洗澡時唱歌、也喜歡做家事；情緒不穩定性較高的人，比較喜歡去捉弄別人；經驗開放性特質明顯的人，比較習慣在家時打赤膊趴趴走、或是喜歡做嘲笑別人之類的事。舉例來說，Steve
+            Jobs在年輕時，時常凌晨4:00就起床，9:30以前就會把一天的固定任務完成，以應付之後的事；而Tim Cook則會固定在凌晨3:45就起床收發郵件，處理公事。有一次Tim
+            Cook不小心凌晨4:30才起床，還發了Twitter嘲諷自己奢侈地多睡了一會；而英國維珍集團創辦人Richard
+            Branson則是規律地晚上11點睡覺，早上5點起床處理公事，然後接著衝浪或打網球，保持健康。所以，根據研究結果，如果我們想要了解自己、別人的性格，或是想要培養性格時，或許可以從養成習慣開始！
+        </p>
+        <p>
+            3.從Richard Branson的日常習慣，一窺成功的性格<br>成功人士的日常習慣是什麼？以Richard
+            Branson為例，他常寫部落格，因為透過寫作，他發現自己開始會去關心、並且談論許多社會議題，像是毒品戰爭、虐待難民、同性戀、廢除死刑等等。當Richard
+            Branson寫部落格時，他一定會透過社群網路將這些內容分享出去，因為他認為社群網路是真正開放的世界，而且給予公眾發言權，這非常了不起，自己身為一個年近70的人，這更加重要。所以，他每天都會滑FB、Twitter、LinkedIn、IG，甚至在他文章下面的每則留言回覆，他都會看。比較誇張的是，Richard
+            Branson每天都喝20杯茶來保持活力充沛，而且想吃東西就吃，他常常在午餐時間和公司團隊邊共進午餐邊開會，因為他不喜歡正式會議，那樣太拘束了，他比較喜歡輕鬆的開會心情，甚至有時也會邊走路邊開會！
+        </p>
+        <p>
+            此外，Richard
+            Branson隨時都會帶一本筆記本在身邊，他說：「我成功的秘訣就是隨時想到什麼就寫下來。如果我突然不見，你也找不到我，那一定是我突然想到了什麼點子，可是又沒帶筆在身邊──因為我去找筆作筆記了！」最後，他喜歡和一群人一起吃晚餐，因為他覺得，餐桌才是故事、點子的發源地。Richard
+            Branson自述的日常習慣，真的應證了他性格分析的結果，雖然在情緒、壓力部分著墨不多，但他每天很有規律地起床運動、處理公事，就是自覺性的表現。他寫作的方式、觀看每一則留言，是高經驗開放性的特徵；而吃飯喜歡和一群人一起吃、開會喜歡邊吃邊開，也是外向性的表現。不過，其實我們仔細思考Richard
+            Branson這些日常習慣背後的動機，很容易就可以發覺他為什麼成功，而保持這樣的生活習慣所塑造出來的性格，也變成了成功重要的關鍵。你也有想要培養的性格嗎？
+        </p>
+        <p>
+            你現在的性格，代表的只是你現在的樣子，但性格是可以改變的！在Richard Branson的案例中，我們看到他的許多行為習慣都養成了他的傑出性格，而他的傑出性格不只影響了生活，也影響了成功。
+        </p>
+        <p>
+            我們也可以從Steve Jobs、Tim
+            Cook這些成功企業家的生活中發現，塑造「自覺性」這個性格的日常習慣，對於成功而言真的很關鍵。所以，如果你也有想要培養的性格，習慣是性格之母，不如先從日常生活下手吧！畢竟，你的性格攸關你的未來啊！就像如果你想要變得更open-minded一點，說不定可以從在家打赤膊開始練習！
+        </p>
+
+    </article>
+</body>
+
+</html>
